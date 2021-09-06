@@ -6,4 +6,6 @@
 6. list-style:
 7. line-height
 8. font-family:
-9. color
+9. color:
+10.background-color:
+11. border

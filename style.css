@@ -1,7 +1,19 @@
-h1, h2, h3, h4, p, li {
+
+/* *{
+    border-top: 10px solid #1098ad
+} */
+
+body {
+    font-family: sans-serif;
+    color:#444;
+    /* color:red; */
+    /* border-top: 10px solid blue; */
+}
+
+/* h1, h2, h3, h4, p, li {
     font-family: sans-serif;
     color:#444
-}
+} */
 
 h1, h2, h3 {
     color:#1098ad;
@@ -78,6 +90,71 @@ aside {
     border-bottom: 5px solid #1098ad;
 }
 
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(even) {
+    color:chartreuse;
+}
+
+article p:last-child {
+    color: red
+}
+
 /* body {
     background-color: blue;
 } */
+
+
+
+
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#1098ad;
+}
+
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+    /* text-decoration: underline wavy orangered; */
+}
+
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+/*Resoolving conflict*/
+/* #copyright {
+    color: red;
+}
+
+.copyright {
+    color:blue;
+}
+
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green !important;
+} */
+
+/* nav a:link, nav p {
+    font-size: 18px;
+} */
+
+nav {
+    font-size: 10px
+}
+
